@@ -75,6 +75,7 @@ def articleScraper(ProductLink):
 		wb.save("E:\\IA_Work\\webscraping\\output\\CnetUserReviews.xls")
 		print "file saved"
 def main():
+        #copy the Product Link
 		plink="http://www.cnet.com/products/microsoft-surface-pro-4/user-reviews/"
 		articleScraper(plink)
 
